@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>IHM_1v0</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="add-file.png" />
+    <None Remove="diskette.png" />
+    <None Remove="eraser.png" />
+    <None Remove="logo - apertadeira.png" />
+    <None Remove="M.Shimizu.jpg" />
+    <None Remove="screws.png" />
+    <None Remove="sddefault.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="add-file.png" />
+    <Resource Include="diskette.png" />
+    <Resource Include="eraser.png" />
+    <Resource Include="logo - apertadeira.png" />
+    <Resource Include="M.Shimizu.jpg" />
+    <Resource Include="screws.png" />
+    <Resource Include="sddefault.jpg" />
+  </ItemGroup>
+
+</Project>
